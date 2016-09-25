@@ -1,0 +1,4 @@
+[0m[[31merror[0m] [0m/var/www/uni/benuni/app/views/bentest.scala.html:52: Not parsed?[0m
+[0m[[31merror[0m] [0m        <h1>@name: 'hey there'}!</h1>[0m
+[0m[[31merror[0m] [0m                              ^[0m
+[0m[[31merror[0m] [0m(compile:[31mtwirlCompileTemplates[0m) Twirl compilation failed[0m

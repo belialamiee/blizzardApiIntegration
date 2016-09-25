@@ -1,0 +1,52 @@
+Request URL:http://192.168.169.2:9000/assets/stats.json
+Request Method:GET
+Status Code:304 Not Modified
+Remote Address:192.168.169.2:9000
+
+
+Response Headers
+
+# don't cache the content grabbed from this file
+Cache-Control:no-cache
+
+# The time the response was sent
+Date:Fri, 23 Sep 2016 12:03:01 GMT
+
+# validation
+ETag:"ca31be651c0e863f3a563a8d130966a7457ccf31"
+
+# Last time the file was updated
+Last-Modified:Wed, 21 Sep 2016 09:25:01 GMT
+
+
+Request Headers
+
+# Character sets that are acceptable, in this case json, text and All
+Accept:application/json, text/plain, */*
+
+# The acceptable encoding
+Accept-Encoding:gzip, deflate, sdch
+
+# the client is able to understand english
+Accept-Language:en-US,en;q=0.8
+
+# connection is consistent and not closed
+Connection:keep-alive
+
+# These are the cookies for this page. we cen see our play session in here.
+Cookie:PLAY_SESSION=0206a754b1638705cf3a5e1d564f281dfcb5ac1a-sessionId=57e503779fb5e1273be4618b&userId=57dbe2209fb5e11dcc1e870a&MY_SESSION=57e503779fb5e1273be4618b
+
+# this is the root of the site. in this case this was my servers local and being served by port 9000
+Host:192.168.169.2:9000
+
+# when the file was last modified
+If-Modified-Since:Wed, 21 Sep 2016 09:25:01 GMT
+
+# validation
+If-None-Match:"ca31be651c0e863f3a563a8d130966a7457ccf31"
+
+# This is the where this request came from
+Referer:http://192.168.169.2:9000/characters
+
+# This is the broswer that the user is using.
+User-Agent:Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36

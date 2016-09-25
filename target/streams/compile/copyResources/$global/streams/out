@@ -1,0 +1,5 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/var/www/uni/overwatch/conf/routes~,/var/www/uni/overwatch/target/scala-2.11/classes/routes~)[0m
+[0m[[0mdebug[0m] [0m	(/var/www/uni/overwatch/conf/application.conf,/var/www/uni/overwatch/target/scala-2.11/classes/application.conf)[0m
+[0m[[0mdebug[0m] [0m	(/var/www/uni/overwatch/conf/logback.xml,/var/www/uni/overwatch/target/scala-2.11/classes/logback.xml)[0m
+[0m[[0mdebug[0m] [0m	(/var/www/uni/overwatch/conf/routes,/var/www/uni/overwatch/target/scala-2.11/classes/routes)[0m

@@ -1,0 +1,41 @@
+@(error: String)
+@main(title = "Home") {
+
+<!DOCTYPE html>
+    <html>
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Register</h3>
+            </div>
+            <div class="panel-body">
+                <form action="/register" method="post" class="form-horizontal">
+                    <div class="form-group">
+                        <div class="row">
+                            <label class="col-xs-2 col-xs-offset-2" for="email">
+                                Email Address
+                            </label>
+                            <div class="col-xs-4">
+                                <input type="email" class="form-control"  name="email" id="email">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="row">
+                            <label for="password" class="col-xs-2 col-xs-offset-2">
+                                Password
+                            </label>
+                            <div class="col-xs-4">
+                                <input type="password" class="form-control" name="password" id="password">
+
+                            </div>
+                        </div>
+                    </div>
+                    @if(error != null) {
+                        <div>@error</div>
+                    }
+                    <button class="btn btn-default" type="submit">Register</button>
+                </form>
+            </div>
+        </div>
+    </html>
+}

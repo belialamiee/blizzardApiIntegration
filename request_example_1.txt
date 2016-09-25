@@ -1,0 +1,53 @@
+Request URL:http://192.168.169.2:9000/add-search-items
+Request Method:POST
+Status Code:200 OK
+Remote Address:192.168.169.2:9000
+
+Response Headers
+
+#There was not content being sent back for this request
+Content-Length:0
+
+#The data of the request
+Date:Fri, 23 Sep 2016 11:17:21 GMT
+
+Request Headers
+
+# Character sets that are acceptable, in this case json, text and All
+Accept:application/json, text/plain, */*
+
+# The acceptable encoding
+Accept-Encoding:gzip, deflate
+
+# the client is able to understand english
+Accept-Language:en-US,en;q=0.8
+
+# connection is consistent and not closed
+Connection:keep-alive
+
+# the number of bytes in the request data 
+Content-Length:40
+
+# the type of data sent, in this case it is a JSON string in UTF8 char encoding
+Content-Type:application/json;charset=UTF-8
+
+# These are the cookies for this page. we cen see our play session in here.
+Cookie:PLAY_SESSION=0206a754b1638705cf3a5e1d564f281dfcb5ac1a-sessionId=57e503779fb5e1273be4618b&userId=57dbe2209fb5e11dcc1e870a&MY_SESSION=57e503779fb5e1273be4618b
+
+# This is the root of the site. in this case this was my servers local and being served by port 9000
+Host:192.168.169.2:9000
+
+# 
+Origin:http://192.168.169.2:9000
+
+# This is the where this request came from
+Referer:http://192.168.169.2:9000/characters
+
+# This is the broswer that the user is using.
+User-Agent:Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36
+
+
+Request Payload
+
+# this is the information being sent
+{realm: "Caelestrasz", name: "Evaelin"}

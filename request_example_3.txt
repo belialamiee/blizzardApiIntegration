@@ -1,0 +1,49 @@
+Request URL:http://192.168.169.2:9000/ajax-get-search-items
+Request Method:GET
+Status Code:200 OK
+Remote Address:192.168.169.2:9000
+
+
+Response Headers
+
+#The the number of bytes of data in the response body 
+Content-Length:252
+
+#The nature of the request this is json data being sent
+Content-Type:application/json;charset=utf-8
+
+# the time that the response was sent
+Date:Fri, 23 Sep 2016 11:19:08 GMT
+
+
+Request Headers
+
+# Character sets that are acceptable, in this case all
+Accept:*/*
+
+# The acceptable encoding
+Accept-Encoding:gzip, deflate, sdch
+
+# the client is able to understand english
+Accept-Language:en-US,en;q=0.8
+
+# the content is considered stale and should be refetched
+Cache-Control:max-age=0
+
+# connection is consistent and not closed
+Connection:keep-alive
+
+# These are the cookies for this page. we cen see our play session in here.
+Cookie:PLAY_SESSION=0206a754b1638705cf3a5e1d564f281dfcb5ac1a-sessionId=57e503779fb5e1273be4618b&userId=57dbe2209fb5e11dcc1e870a&MY_SESSION=57e503779fb5e1273be4618b
+
+# this is the root of the site. in this case this was my servers local and being served by port 9000
+Host:192.168.169.2:9000
+
+# This is the where this request came from
+Referer:http://192.168.169.2:9000/characters
+
+# This is the broswer that the user is using.
+User-Agent:Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36
+
+# shows that this is an ajax request
+X-Requested-With:XMLHttpRequest
